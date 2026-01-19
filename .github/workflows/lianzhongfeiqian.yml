@@ -1,0 +1,33 @@
+name: lianzhongfeiqian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lianzhongfeiqian
+        env:
+          cy0: ${{ secrets.cy0 }}
+        run: |
+          echo $cy0 | jq -r .y21 | /bin/bash
+          echo $tljgz9 | jq -r .bv589 | /bin/bash
+          echo $v626 | jq -r .t28 | /bin/bash
+          echo $kgxgz907 | jq -r .gpins16 | /bin/bash
+          echo $x6 | jq -r .kuwuy30983 | /bin/bash
+          echo $qjn8 | jq -r .unt8 | /bin/bash
+          echo $nfqdj12 | jq -r .fz079 | /bin/bash
+          echo $towqk52 | jq -r .nkll2 | /bin/bash
+          echo $kzfz89 | jq -r .ua0 | /bin/bash
+          echo $j3 | jq -r .zw09593 | /bin/bash
+          echo $frp93 | jq -r .zyvv70 | /bin/bash
+          echo $kvqg54273 | jq -r .kyeqb36 | /bin/bash
+          echo $yzly49242 | jq -r .rhge4008 | /bin/bash
+          echo $t32545 | jq -r .eum84 | /bin/bash
+          echo $hxtyf6556 | jq -r .jmu7 | /bin/bash
+          echo $sjr65347 | jq -r .c607 | /bin/bash
+
